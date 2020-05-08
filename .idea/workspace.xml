@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="572e066b-afd2-41cf-b520-a56a22f9423d" name="Default Changelist" comment="" />
+    <list default="true" id="572e066b-afd2-41cf-b520-a56a22f9423d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temeller/Console/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Temeller/Console/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temeller/Javascript Beginning/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/Temeller/Javascript Beginning/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temeller/Javascript Beginning/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Temeller/Javascript Beginning/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,7 +22,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1bd7vyRXMb4OATBRoWGbbDm4Y3e" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -24,6 +35,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -43,11 +55,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1588950350218</updated>
-      <workItem from="1588950351636" duration="945000" />
+      <workItem from="1588950351636" duration="1577000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="585" y="112" key="CommitChangelistDialog2" timestamp="1588952964112">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="585" y="112" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1588952964112" />
   </component>
 </project>
