@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="572e066b-afd2-41cf-b520-a56a22f9423d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Orta Seviye/Creating Dynamic Element/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Orta Seviye/Creating Dynamic Element/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Orta Seviye/Changing Elements/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Orta Seviye/Changing Elements/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Orta Seviye/Deleting Dynamic Element/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Orta Seviye/Deleting Dynamic Element/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -149,7 +151,7 @@
       <workItem from="1590680887851" duration="6322000" />
       <workItem from="1591210517550" duration="1133000" />
       <workItem from="1591378742623" duration="34000" />
-      <workItem from="1591378880931" duration="1732000" />
+      <workItem from="1591378880931" duration="3147000" />
     </task>
     <task id="LOCAL-00001" summary="ikinci">
       <created>1588952990647</created>
@@ -249,7 +251,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590689281029</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Creating Dynamic Elements">
+      <created>1591383359706</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1591383359707</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -270,7 +279,8 @@
     <MESSAGE value="Scopes" />
     <MESSAGE value="Dom Manipulation" />
     <MESSAGE value="Dom Manipulation (2)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dom Manipulation (2)" />
+    <MESSAGE value="Creating Dynamic Elements" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creating Dynamic Elements" />
   </component>
   <component name="WindowStateProjectService">
     <state x="742" y="199" key="#Date" timestamp="1589557896450">
@@ -313,10 +323,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="640" y="255" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1591378766343" />
-    <state x="585" y="112" key="CommitChangelistDialog2" timestamp="1590689279874">
+    <state x="585" y="112" key="CommitChangelistDialog2" timestamp="1591383358668">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="585" y="112" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1590689279874" />
+    <state x="585" y="112" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1591383358668" />
     <state x="739" y="261" key="FileChooserDialogImpl" timestamp="1590504920125">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -389,10 +399,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="162" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1589554321776" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1590690268274">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1591383364436">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1590690268274" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1591383364436" />
     <state x="535" y="196" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1588953977787">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
