@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="572e066b-afd2-41cf-b520-a56a22f9423d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Orta Seviye/Local Storage/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Orta Seviye/Local Storage/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Orta Seviye/Session Storage/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Orta Seviye/Session Storage/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Orta Seviye/Local Storage/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/Orta Seviye/Local Storage/app.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,7 +146,7 @@
       <workItem from="1591639890095" duration="5285000" />
       <workItem from="1591841846154" duration="80000" />
       <workItem from="1592397468722" duration="7881000" />
-      <workItem from="1592584750429" duration="2178000" />
+      <workItem from="1592584750429" duration="2491000" />
     </task>
     <task id="LOCAL-00001" summary="ikinci">
       <created>1588952990647</created>
@@ -278,7 +274,21 @@
       <option name="project" value="LOCAL" />
       <updated>1591645157879</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Storages">
+      <created>1592587023196</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1592587023196</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Storages">
+      <created>1592587128141</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1592587128141</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -303,7 +313,8 @@
     <MESSAGE value="Deleting and Replacing Dynamic Elements" />
     <MESSAGE value="Replacing, Deleting, Adding Dynamic Attirute" />
     <MESSAGE value="DOM Events" />
-    <option name="LAST_COMMIT_MESSAGE" value="DOM Events" />
+    <MESSAGE value="Storages" />
+    <option name="LAST_COMMIT_MESSAGE" value="Storages" />
   </component>
   <component name="WindowStateProjectService">
     <state x="742" y="199" key="#Date" timestamp="1589557896450">
@@ -350,10 +361,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1592401635839" />
-    <state x="585" y="112" key="CommitChangelistDialog2" timestamp="1591645156976">
+    <state x="585" y="112" key="CommitChangelistDialog2" timestamp="1592587127599">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="585" y="112" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1591645156976" />
+    <state x="585" y="112" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1592587127599" />
     <state x="739" y="261" key="FileChooserDialogImpl" timestamp="1590504920125">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -426,18 +437,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="162" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1589554321776" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1591645159990">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1592587133082">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1591645159990" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1592587133082" />
     <state x="535" y="196" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1588953977787">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="535" y="196" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1588953977787" />
-    <state x="769" y="436" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1588958059514">
+    <state x="769" y="436" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1592587182598">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="769" y="436" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1588958059514" />
+    <state x="769" y="436" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1592587182598" />
     <state x="1920" y="0" width="1385" height="1028" key="dock-window-1" timestamp="1592401551370">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
