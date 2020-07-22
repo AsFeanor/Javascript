@@ -11,26 +11,71 @@ eventListeners();
 
 function eventListeners() { // All Event Listeners
     form.addEventListener("submit",addTodo);
+    document.addEventListener("DOMContentLoaded",loadAllTodosToUI);
+    secondCardBody.addEventListener("click",deleteTodo);
+}
+function deleteTodo(e) {
 
+    if (e.target.className === "fa fa-remove"){
+        e.target.parentElement.parentElement.remove();
+        deleteTodoFromStorage(e.target.parentElement.parentElement.textContent);
+        showAlert("success","Todo basari ile silindi...")
+    }
+}
+function deleteTodoFromStorage(deletetodo) {
+    let todos = getTodosFromStorage();
+
+    todos.forEach(function (todo,index) {
+        if (todo === deletetodo){
+            todos.splice(index,1); // Deleting value from array.
+        }
+
+    });
+
+    localStorage.setItem("todos",JSON.stringify(todos));
+}
+function loadAllTodosToUI() {
+    let todos = getTodosFromStorage();
+
+    todos.forEach(function (todo) {
+        addTodoToUI(todo);
+
+    })
 }
 function addTodo(e) {
     const newTodo = todoInput.value.trim();
 
     if (newTodo === ""){
-        /*<div class="alert alert-danger" role="alert">
-                This is a danger alert—check it out!
-            </div>
-         */
+
         showAlert("danger","Lutfen bir todo girin...");
     }
     else{
         addTodoToUI(newTodo);
+        addTodoToStorage(newTodo);
         showAlert("success","Todo basari ile eklendi");
     }
 
 
-
     e.preventDefault();
+}
+function getTodosFromStorage() { // This is getting all todos from storage
+    let todos;
+
+    if (localStorage.getItem("todos") === null){
+        todos = [];
+    }
+    else {
+        todos = JSON.parse(localStorage.getItem("todos"));
+    }
+    return todos;
+}
+function addTodoToStorage(newTodo) {
+    let todos = getTodosFromStorage();
+
+    todos.push(newTodo);
+
+    localStorage.setItem("todos",JSON.stringify(todos));
+
 }
 function showAlert(type,message) {
     const alert = document.createElement("div");
