@@ -32,7 +32,9 @@ function Employee(name, age) {
 }
 
 Employee.prototype = Object.create(Person.prototype);
-
+Employee.prototype.myTest = function () {
+    console.log("myTest");
+}
 const emp = new Employee("Altug",21);
 
 console.log(emp);
